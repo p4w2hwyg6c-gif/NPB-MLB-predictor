@@ -106,7 +106,7 @@ Statcast系指標はNPB公式集計外のため合理的に推定すること。
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-6',
+       model: 'claude-3-5-sonnet-20240620',
         max_tokens: 2200,
         messages: [{ role: 'user', content: prompt }],
       }),
