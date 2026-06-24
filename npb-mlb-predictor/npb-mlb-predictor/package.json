@@ -1,0 +1,12 @@
+{
+  "name": "npb-mlb-predictor",
+  "version": "1.0.0",
+  "description": "NPB選手のMLB移籍契約予測サイト",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
