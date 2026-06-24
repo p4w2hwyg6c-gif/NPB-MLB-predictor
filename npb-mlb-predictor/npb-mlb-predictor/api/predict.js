@@ -1,7 +1,7 @@
 // api/predict.js
 // Vercel Serverless Function - APIキーをサーバー側で安全に管理します
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   // CORSヘッダー（フロントエンドからのアクセスを許可）
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
